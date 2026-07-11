@@ -1,5 +1,7 @@
 # Akapulu Labs prebuilt UI — styled example
 
+[Read this example in our docs →](https://docs.akapulu.com/examples/web-sdk/prebuilt-ui-styled)
+
 The prebuilt conversation UI with a custom dark theme, a custom tool toast, and a
 post-call review screen (recording + transcript).
 
