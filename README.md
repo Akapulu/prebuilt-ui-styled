@@ -115,9 +115,7 @@ Your backend calls Akapulu with your API key.
 
 ```text
 prebuilt-ui-styled/
-├── LICENSE
-├── README.md
-├── .gitignore
+├── README.md, LICENSE, .gitignore
 |
 ├── backend/
 │   ├── package.json      # @akapulu/server
@@ -126,7 +124,7 @@ prebuilt-ui-styled/
 │   └── server.ts         # connect + updates + conversation-details + recording
 |
 └── frontend/
-    ├── package.json      # @akapulu/react, @akapulu/react-ui, lucide-react
+    ├── package.json      # @akapulu/react, @akapulu/react-ui
     ├── tsconfig.json
     ├── vite.config.ts
     ├── index.html
