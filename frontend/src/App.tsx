@@ -107,6 +107,7 @@ export function App() {
           connectPath: `${API_BASE}/api/connect`, // create and connect to conversation
           updatesPath: `${API_BASE}/api/updates`, // for loading progress bar
         },
+        // Optional connectBody / headers: object or function called at request time.
       }}
     >
       <ConversationEndedWatcher onEnded={setReviewId} />

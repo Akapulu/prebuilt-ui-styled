@@ -93,6 +93,8 @@ Open <http://localhost:5173> and click **Start Call**. When the call ends, you l
 The frontend (`localhost:5173`) calls your backend (`localhost:3001`).
 Your backend calls Akapulu with your API key.
 
+This demo does not authenticate users. Anyone who can reach `/api/connect` can start a conversation on your account. Before production, authenticate users on that route. Pass those headers with `config.headers` on `AkapuluProvider` (object or a function called when the request is sent).
+
 ### Backend (`backend/server.ts`)
 
 ```ts
