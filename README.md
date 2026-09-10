@@ -3,7 +3,8 @@
 [Read this example in our docs →](https://docs.akapulu.com/examples/web-sdk/prebuilt-ui-styled)
 
 The prebuilt conversation UI with a custom dark theme, a custom tool toast, and a
-post-call review screen (recording + transcript).
+post-call review screen (recording + transcript). Connect chime plays when the call
+goes live (`playConnectChime={false}` to disable).
 
 Two folders:
 

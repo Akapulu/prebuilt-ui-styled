@@ -1,6 +1,7 @@
 // Styled prebuilt UI demo:
 //   - dark theme via `styles`, custom tool toast, custom transcript rows
 //   - logs every session event with `useAkapuluEvents`
+//   - connect chime is on by default in `AkapuluConversation`
 //   - when the call ends, swaps to a post-call review screen (recording + transcript)
 //
 // There's no router: `reviewId` state decides which screen to show.
